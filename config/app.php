@@ -177,6 +177,7 @@ return [
 
         //
         Ashadozzaman\Contact\ContactServiceProvider::class,
+        Ashadozzaman\Coupon\CouponServiceProvider::class,
 
     ],
 

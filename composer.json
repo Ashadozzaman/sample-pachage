@@ -10,7 +10,8 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.4"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -30,7 +31,8 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Ashadozzaman\\Contact\\": "package/contact/src/"
+            "Ashadozzaman\\Contact\\": "package/contact/src/",
+            "Ashadozzaman\\Coupon\\": "package/coupon/src/"
         }
     },
     "scripts": {
