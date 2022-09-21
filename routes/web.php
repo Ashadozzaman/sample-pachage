@@ -3,7 +3,6 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/course',[HomeController::class,'get_course'])->name('course');
 Route::get('/checkout/{id?}',[HomeController::class,'checkout_course'])->name('checkout.course');
 Route::post('/checkout/submit',[HomeController::class,'checkout_submit'])->name('submit.checkout');
